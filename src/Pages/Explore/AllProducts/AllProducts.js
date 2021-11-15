@@ -9,7 +9,7 @@ import SingleProduct from './SingleProduct';
 const AllProducts = () => {
     const [products, setProducts] = React.useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://whispering-lake-86725.herokuapp.com/products')
             .then(response => response.json())
             .then(data => {
                 setProducts(data);

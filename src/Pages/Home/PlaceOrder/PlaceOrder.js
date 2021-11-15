@@ -19,7 +19,7 @@ const PlaceOrder = () => {
     const [service, setService] = useState({});
     const onSubmit = data => {
         console.log(data);
-        fetch('http://localhost:5000/orders', {
+        fetch('https://whispering-lake-86725.herokuapp.com/orders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -36,7 +36,7 @@ const PlaceOrder = () => {
     };
 
     useEffect(() => {
-        fetch(`http://localhost:5000/products/${serviceId}`)
+        fetch(`https://whispering-lake-86725.herokuapp.com/products/${serviceId}`)
             .then(res => res.json())
             .then(data => setService(data))
     }, [serviceId])

@@ -6,7 +6,7 @@ import './AddProducts.css'
 const AddNewService = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
-        fetch('http://localhost:5000/products', {
+        fetch('https://whispering-lake-86725.herokuapp.com/products', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

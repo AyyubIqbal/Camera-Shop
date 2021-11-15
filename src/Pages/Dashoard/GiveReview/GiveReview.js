@@ -6,7 +6,7 @@ const GiveReview = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => {
         console.log(data);
-        fetch('http://localhost:5000/reviews', {
+        fetch('https://whispering-lake-86725.herokuapp.com/reviews', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

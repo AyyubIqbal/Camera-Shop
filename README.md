@@ -1,4 +1,4 @@
-# This is c Camera Shop website
+# This is a Camera Shop website
 As a premier photo and video outlet, we are full line dealers for the entire range of camera equipments and supplies.
 Whether you are a leading professional or new to photography, our expert staff are always ready to assist you in finding the perfect camera equipment at great prices.
 
